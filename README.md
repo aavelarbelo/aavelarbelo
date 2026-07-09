@@ -1,4 +1,4 @@
-# Hi, I'm Andressa Avelar Avelar 👋🤓
+# Hi, I'm Andressa Avelar 👋🤓
 
 **Control & Automation Engineer specializing in Data Engineering, Big Data and Analytics.**
 

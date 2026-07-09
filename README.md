@@ -1,10 +1,10 @@
-# Hi, I'm Andressa Avelar Belo 👋
+# Hi, I'm Andressa Avelar Avelar 👋🤓
 
-**Control & Automation Engineer transitioning into Data Engineering, Big Data and Analytics.**
+**Control & Automation Engineer specializing in Data Engineering, Big Data and Analytics.**
 
 Currently completing a Post-Graduation in **Big Data and Decision Making** at ISEP (Porto, Portugal), and turning each course unit into a real, documented, reproducible project — this profile is organized as that journey.
 
-📍 Lisbon, Portugal · 💼 Open to junior/trainee roles in Data Engineering, Data Analytics and BI
+📍 Porto, Portugal · 💼 Open to junior/trainee roles in Data Engineering, Data Analytics and BI
 
 [LinkedIn](https://linkedin.com/in/andressaavelar) · eng.belo@gmail.com
 

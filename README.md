@@ -1,10 +1,12 @@
 # Hi, I'm Andressa Avelar 👋🤓
 
-**Control & Automation Engineer specializing in Data Engineering, Big Data and Analytics.**
+**Control & Automation Engineer specializing in Data Engineering, Big Data and Cloud technologies.**
 
-Currently completing a Post-Graduation in **Big Data and Decision Making** at ISEP (Porto, Portugal), and turning each course unit into a real, documented, reproducible project — this profile is organized as that journey.
+Post-Graduate in **Big Data and Decision Making** at ISEP (Porto, Portugal), currently developing hands-on projects across data engineering, cloud infrastructure, containerization and automation.
 
-📍 Porto, Portugal · 💼 Open to junior/trainee roles in Data Engineering, Data Analytics and BI
+My current focus is building a stronger bridge between **Data Engineering and Cloud/DevOps**, working hands-on with Python, Docker, AWS, Terraform and CI/CD.
+
+📍 Porto, Portugal · 💼 Open to junior opportunities in Data Engineering, Cloud/DevOps and related engineering roles
 
 [LinkedIn](https://linkedin.com/in/andressaavelar) · eng.belo@gmail.com
 

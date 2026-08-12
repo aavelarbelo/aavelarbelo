@@ -12,6 +12,20 @@ My current focus is building a stronger bridge between **Data Engineering and Cl
 
 ---
 
+## ☁️ Current Cloud/DevOps Project
+
+### [Cloud DevOps — AWS ECS/Fargate](https://github.com/aavelarbelo/cloud-devops-aws-ecs-fargate)
+
+Hands-on project focused on the deployment lifecycle of a containerized Python application:
+
+**Python → Docker → Amazon ECR → Amazon ECS/Fargate**
+
+Infrastructure as Code with **Terraform**, followed by deployment automation using **GitLab CI/CD**.
+
+🚧 Currently being implemented and documented incrementally.
+
+---
+
 ## 🎓 Postgraduate Portfolio — one real project per course unit
 
 | Course Unit | Project | Status |

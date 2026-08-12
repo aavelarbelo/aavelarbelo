@@ -35,9 +35,8 @@ Infrastructure as Code with **Terraform**, followed by deployment automation usi
 | Big Data Tools | [bigdata-tools-lab](https://github.com/aavelarbelo/bigdata-tools-lab) — hands-on labs with Spark (RDDs), Kafka and distributed processing · [mini-social-bdt](https://github.com/aavelarbelo/mini-social-bdt) — NoSQL mini-project with Cassandra (CQL) | 🔄 In progress |
 | Data Analytics | [urbaneco-analytics](https://github.com/aavelarbelo/urbaneco-analytics) — urban/environmental analytics project (own authorship, being expanded) · [property-price-analysis-porto](https://github.com/aavelarbelo/property-price-analysis-porto) · [logistics-route-optimization](https://github.com/aavelarbelo/logistics-route-optimization) | 🔄 In progress |
 | Business Intelligence | Power BI dashboards and reporting layer | 🗓️ Planned |
-| Data Security · Data Architecture · DevOps for Data Engineering | Cross-cutting units — will appear as sections inside the projects above (security notes, architecture diagrams, CI/CD) | 🗓️ Planned |
-| Seminars (final project) | Group capstone project | 🗓️ Planned |
-
+| Data Security · Data Architecture · Cloud/DevOps | Security and architecture concepts applied across projects, with a dedicated [AWS ECS/Fargate Cloud DevOps project](https://github.com/aavelarbelo/cloud-devops-aws-ecs-fargate) currently under development | 🔄 In progress |
+| Seminars (final project) | [urbaneco-analytics](https://github.com/aavelarbelo/urbaneco-analytics) — urban and environmental analytics project, currently being expanded beyond the original academic scope | 🔄 Being expanded |
 > Each ✅ project is reproducible: clone it, install `requirements.txt`, run the notebooks in order. Work sessions are logged in each repo's `WORKLOG.md`.
 
 ---

@@ -8,7 +8,7 @@ My current focus is building a stronger bridge between **Data Engineering and Cl
 
 📍 Porto, Portugal · 💼 Open to junior opportunities in Data Engineering, Cloud/DevOps and related engineering roles
 
-[LinkedIn](https://linkedin.com/in/andressaavelar) · eng.belo@gmail.com
+[LinkedIn](https://linkedin.com/in/andressaavelar) · https://aavelarbelo.github.io/ · eng.belo@gmail.com · @debugandressa
 
 ---
 

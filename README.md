@@ -5,6 +5,7 @@
 I hold a Post-Graduate degree in **Big Data & Decision Making** from **ISEP (Porto)**. My focus is the part of data engineering that banks and ESG teams struggle with most: taking **fragmented, unreliable data** and making it **clean, traceable and useful** — with quality checks, dimensional modeling and clear documentation.
 
 📍 Porto, Portugal  ·  💼 Open to **junior / trainee Data Engineering** roles
+
 🔗 [LinkedIn](https://linkedin.com/in/andressaavelar)  ·  [Portfolio](https://aavelarbelo.github.io/)  ·  eng.belo@gmail.com  ·  [@debugandressa](https://www.instagram.com/debugandressa)
 
 ---

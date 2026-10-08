@@ -1,50 +1,57 @@
-# Hi, I'm Andressa Avelar 👋🤓
+# Hi, I'm Andressa Avelar Belo 👋
 
-**Control & Automation Engineer turned Data Engineer — I build data pipelines end to end, from messy source to decision-ready dashboard.**
+**Control & Automation Engineer moving into data** — I build data workflows from messy source to decision-ready dashboard.
 
-I hold a Post-Graduate degree in **Big Data & Decision Making** from **ISEP (Porto)**. My focus is the part of data engineering that banks and ESG teams struggle with most: taking **fragmented, unreliable data** and making it **clean, traceable and useful** — with quality checks, dimensional modeling and clear documentation.
+I hold a Post-Graduate degree in **Big Data & Decision Making** from **ISEP (Porto)**. I like the unglamorous part of data work: taking **fragmented, unreliable data** and making it **clean, traceable and useful**, with quality checks and clear documentation.
 
-📍 Porto, Portugal  ·  💼 Open to **junior / trainee Data Engineering** roles
+📍 Porto, Portugal · 💼 Open to **Data Analyst / BI Analyst / Junior Data Engineer** roles
 
-🔗 [LinkedIn](https://linkedin.com/in/andressaavelar)  ·  [Portfolio](https://aavelarbelo.github.io/)  ·  eng.belo@gmail.com  ·  [@debugandressa](https://www.instagram.com/debugandressa)
+🔗 [LinkedIn](https://linkedin.com/in/andressaavelar) · [Portfolio](https://aavelarbelo.github.io/) · eng.belo@gmail.com
 
 ---
 
-## ⭐ Featured — UrbanEco: an ESG-style data pipeline
+## ⭐ Featured — UrbanEco: energy efficiency and housing prices in Porto
 
-**[energy-value-index-porto](https://github.com/aavelarbelo/energy-value-index-porto)**  ·  *in active development*
+[urbaneco-analytics](https://github.com/aavelarbelo/urbaneco-analytics) · [project site](https://aavelarbelo.github.io/urbaneco-analytics/) · *final group project, ISEP 2026*
 
-Turning fragmented, unreliable public property data into a **reliable, geographically-disaggregated Energy Value Index (EVI)** — from ingestion and quality control all the way to the dashboard. It's the same problem sustainable-finance teams describe: ESG data that is scarce, messy and hard to trust.
+**Question:** how does energy efficiency relate to the asking price per m² of homes for sale in Porto?
 
-**What I built, end to end:**
-- **Ingestion** — a multi-page Selenium scraper (~2,800 property listings across 7 districts of Porto), with source traceability and de-duplication
-- **Quality & standardization** — separate raw and validated bases, cleaned prices/areas, boolean amenities
-- **Warehouse** — a 24-variable schema on PostgreSQL (Aiven Cloud)
-- **Index** — a documented, weighted **Energy Value Index** (Energy 55% + Price 45%, scored 1–10)
-- **Reporting** — a Power BI dashboard with the EVI and a per-district energy gap
+**What we found** (2,874 SuperCasa listings, June 2026):
+- Location matters more than energy class: the median €/m² ranges from 4,180 to 6,950 across parishes (+66%).
+- Within the same parish and typology, A/B homes ask more per m² in 15 of 15 segments (median gap +766 €/m²).
+- Association, not causation — and the sample is skewed: 91% of certified new builds are A/B vs 50% of used homes.
 
-`Python` · `Selenium` · `PostgreSQL` · `Power BI` · `Data Quality` · `Dimensional Modeling`
+**My contribution:**
+- Data collection — SuperCasa scraping with Python/Selenium
+- Cleaning and Energy Value Index calculation in Python
+- Local PostgreSQL database in Docker
+- Project documentation
+- Dashboard review (Oct 2026): found and fixed a card that summed all segments (14,772 €/m² → 338 €/m²), an index that scored missing data as 0, and a "best parish" card picked alphabetically
 
-> Individual continuation of an ISEP group project ([urbaneco-analytics](https://github.com/aavelarbelo/urbaneco-analytics), archived), where I led the data engineering — rebuilt end to end and developed with the team's permission. Prices are asking prices and any synthetic fields are flagged, stated openly for methodological transparency.
+The original DAX measures and the shared PostgreSQL database (Aiven) were built by the group.
+
+`Python` · `Selenium` · `pandas` · `PostgreSQL` · `Docker` · `Power BI`
+
+> **Next:** I'm extending the Energy Value Index on my own — testing whether the energy premium holds after controlling for location, typology, condition, age and size. Repository will be public once it runs end to end.
 
 ---
 
 ## 🧠 Also — Customer Churn Prediction
 
-**[data-mining-churn-prediction](https://github.com/aavelarbelo/data-mining-churn-prediction)**
+[data-mining-churn-prediction](https://github.com/aavelarbelo/data-mining-churn-prediction)
 
-Telecom customer churn with **CRISP-DM**: EDA, data cleaning, and several classifiers compared — with the honest finding that the highest-*accuracy* model was **not** the best *business* choice, because missing a churner costs more than a false alarm. The dataset also hid mixed encodings from two merged sources; I caught it during preparation and re-ran the pipeline. Full write-up in the repo.
+Telecom customer churn with **CRISP-DM**: EDA, data cleaning and several classifiers compared — with the finding that the highest-*accuracy* model was **not** the best *business* choice, because missing a churner costs more than a false alarm. Full write-up in the repo.
 
 `Python` · `pandas` · `scikit-learn` · `CRISP-DM`
 
 ---
 
-## 🛠️ Tech
+## 🛠 Tech
 
-**Core:** Python (pandas, NumPy, scikit-learn) · SQL · PostgreSQL · Selenium · Power BI · Docker · Git
-**From my postgrad:** dimensional modeling · data warehousing · data quality · CRISP-DM
+**Use in projects:** Python (pandas, NumPy, scikit-learn, Selenium) · SQL · PostgreSQL · Power BI · Docker · Git
+**From my postgrad:** data warehousing · dimensional modeling · data quality · CRISP-DM
 **Currently learning:** T-SQL / SQL Server · AWS · CI/CD · PySpark
 
 ---
 
-*Engineer by training, data engineer by choice — I care about pipelines that are reliable, traceable, and honest about their limits.*
+*Engineer by training, data professional by choice — I care about work that is reliable, traceable, and honest about its limits.*

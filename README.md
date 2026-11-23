@@ -14,7 +14,7 @@ traceable and useful**, with quality checks and clear documentation.
 
 🚀 *Just getting started (Nov 2026).* I joined the **founding cohort** of the *Mentoria em Engenharia
 de Dados e Carreira Tech*, led by Senior Data Engineer Jader Greiner
-([announcement](https://lnkd.in/p/e9iE3q2e)).
+(https://www.linkedin.com/in/jadergreiner)
 
 **Goal for the next 90 days:** build an end-to-end portfolio project, from **ingestion** to
 **transformation with SQL/dbt** to **visualization**, and document its progress here.

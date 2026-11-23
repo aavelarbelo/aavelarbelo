@@ -1,7 +1,7 @@
 # Andressa Avelar Belo
 
-**Control & Automation Engineer moving into data.** I build data workflows from messy source to
-decision-ready dashboard.
+**Junior Data Engineer** with a background in Control & Automation Engineering. I build data
+workflows from messy source to decision-ready dashboard.
 
 Porto, Portugal · Open to **Data Analyst / BI Analyst / Junior Data Engineer** roles ·
 [LinkedIn](https://linkedin.com/in/andressaavelar) · [Portfolio](https://aavelarbelo.github.io/) · eng.belo@gmail.com

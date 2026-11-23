@@ -10,6 +10,15 @@ I hold a Post-Graduate degree in **Big Data & Decision Making** from **ISEP (Por
 unglamorous part of data work: taking **fragmented, unreliable data** and making it **clean,
 traceable and useful**, with quality checks and clear documentation.
 
+## Now: 90-day Data Engineering mentorship
+
+🚀 *Just getting started (Nov 2026).* I joined the **founding cohort** of the *Mentoria em Engenharia
+de Dados e Carreira Tech*, led by Senior Data Engineer Jader Greiner
+([announcement](https://lnkd.in/p/e9iE3q2e)).
+
+**Goal for the next 90 days:** build an end-to-end portfolio project, from **ingestion** to
+**transformation with SQL/dbt** to **visualization**, and document its progress here.
+
 ## Featured: LLM Job Application Assistant
 
 [llm-job-application-assistant](https://github.com/aavelarbelo/llm-job-application-assistant) · *personal project, 2026 · in production since 19 Nov 2026*

@@ -26,12 +26,21 @@ de Dados e Carreira Tech*, led by Senior Data Engineer Jader Greiner
 **Problem:** use an LLM to screen job postings and tailor CVs faster, without letting it invent
 experience, round numbers up or misread a profile.
 
-| | |
-|---|---|
-| **What it does** | A daily n8n workflow reads LinkedIn job alerts, applies a free rule-based pre-filter and asks the Claude API to score each posting (0–100) against a verified master profile, returning structured JSON. Postings scoring 60+ arrive by email with a tailored CV and cover letter; every result is logged in Google Sheets. I review and submit every application myself. |
-| **Guardrails** | Single-source profile with an explicit list of forbidden claims; a Python CV generator that rejects any fact not marked as verified and checks the 1-page limit; error alerts instead of silent failures. |
-| **Found in testing** | Responses were truncated because adaptive thinking used 5,764 of 6,000 output tokens; fixed through the thinking configuration and token limit. Measured cost: ≈ US$ 0.04 per posting. |
-| **Stack** | `n8n` · `Claude API` · `Python` · `python-docx` · `Gmail` · `Google Sheets` |
+- **What it does:** a daily n8n workflow reads LinkedIn job alerts, applies a free rule-based
+  pre-filter and asks the Claude API to score each posting (0–100) against a verified master
+  profile, returning structured JSON. Postings scoring 60+ arrive by email with a tailored CV and
+  cover letter; every result is logged in Google Sheets. I review and submit every application myself.
+- **Guardrails:** single-source profile with an explicit list of forbidden claims; a Python CV
+  generator that rejects any fact not marked as verified and checks the 1-page limit; error alerts
+  instead of silent failures.
+- **Found in testing:** responses were truncated because adaptive thinking used 5,764 of 6,000
+  output tokens; fixed through the thinking configuration and token limit. Measured cost:
+  ≈ US$ 0.04 per posting.
+- **First days in production (19–22 Nov):** 7 real postings evaluated, 2 scored 60+ and arrived
+  with a tailored CV and letter. Production also exposed 3 bugs (a duplicate inside one run, a
+  blank posting logged as low fit, a Sheets permission error caught by the error alert); details
+  in the [project README](https://github.com/aavelarbelo/llm-job-application-assistant#first-days-in-production-1922-nov-2026).
+- **Stack:** `n8n` · `Claude API` · `Python` · `python-docx` · `Gmail` · `Google Sheets`
 
 ## Also: UrbanEco, energy efficiency and housing prices in Porto
 
